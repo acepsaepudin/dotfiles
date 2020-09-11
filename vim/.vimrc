@@ -13,6 +13,7 @@ silent execute '!mkdir -p $HOME/.vim/tmp/views'
 set viewdir=$HOME/.vim/tmp/views " where to store view
 silent execute '!mkdir -p $HOME/.vim/tmp/undo'
 set undodir=$HOME/.vim/tmp/undo " where to store undo
+set relativenumber
 
 "netrw
 let g:netrw_banner = 0
