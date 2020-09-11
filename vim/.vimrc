@@ -28,6 +28,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'hashivim/vim-terraform'
 " Initialize plugin system
@@ -41,3 +42,10 @@ let g:ctrlp_by_filename = 1
 
 " terraform format
 let g:terraform_fmt_on_save=1
+
+"emmet-vim
+let g:user_emmet_mode='n'    "only enable normal mode functions.
+
+"'itchyny/lightline.vim'
+set laststatus=2 "supaya muncul line dibawah
+set noshowmode " supaya tulisan --INSERT-- gak muncul
