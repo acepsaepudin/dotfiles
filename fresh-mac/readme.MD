@@ -45,4 +45,13 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 
+# Don't forget to change the Warp's prompt to use starship
+
+```
+
+## Install Raycast ( http://raycast.com )
+```
+Extensions
+- password generator
+- Translate
 ```
