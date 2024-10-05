@@ -55,3 +55,28 @@ Extensions
 - password generator
 - Translate
 ```
+
+## GO package manager (https://github.com/go-nv/goenv/blob/master/INSTALL.md)
+```
+brew install goenv
+Coppy the below script to your .zshrc
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+```
+
+## NeoVIM
+```
+brew install neovim
+```
+
+## LazyVIM
+```
+brew install ripgrep luarocks
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+run nvim
+:lazyhealth
+make sure there is no error
+```
